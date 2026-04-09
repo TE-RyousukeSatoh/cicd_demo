@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@sec-ic-xr/xyn-creation-suite-auth-library": "^0.0.0-eval.20260310-for-session-control",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
