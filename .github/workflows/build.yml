@@ -21,8 +21,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
 
-      - name: Check auth
-        run: npm whoami --registry=https://npm.pkg.github.com
-
       - name: Build
         run: npm run build
